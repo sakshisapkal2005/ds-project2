@@ -48,4 +48,4 @@ if st.button("Predict"):
         if pred == 1:
             st.error(f"Prediction: Diabetes with probability {prob:.2f}")
         else:
-            st.success(f"Prediction: No Diabetes with probability {prob:.2f}"
+            st.success(f"Prediction: No Diabetes with probability {prob:.2f}")
